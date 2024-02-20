@@ -1,0 +1,16 @@
+.btnPrinc{
+    display: flex;
+    justify-content: center;
+    border-radius: 70px !important;
+    text-align: center;
+    width: var(--larg-padrao);
+}
+.btnAgendamento{
+    background-color:  var(--cor-secundario);
+    border-radius: 20px;
+    width: var(--larg-padrao);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border: none;
+}

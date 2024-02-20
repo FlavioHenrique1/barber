@@ -1,0 +1,12 @@
+.btnPrinc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imgIcon{
+    height: 15px;
+}
+.labelImg{
+    color: var(--cor-texto-sec);
+}

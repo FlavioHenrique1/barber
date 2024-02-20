@@ -1,0 +1,28 @@
+    /* Estilo para o container do input */
+    .custominput {
+        position: relative;
+        width: var(--larg-padrao);
+      }
+  
+      /* Estilo para o label simulando a legend */
+      .customlabel {
+        position: absolute; /* Posiciona o label de forma absoluta em relação ao container */
+        top: -10px; /* Move o label para cima, para sobrepor a borda superior do container */
+        left: 35px; /* Adiciona um pequeno recuo à esquerda para alinhar com o conteúdo do container */
+        background-color: white; /* Garante que o label cubra a borda superior do container */
+        padding: 0 5px; /* Adiciona um pequeno espaço interno ao label */
+        font-weight: bold;
+      }
+  
+      /* Estilo para o input */
+      .custominput input {
+        width: 100%; /* Ocupa 100% da largura disponível dentro do container */
+        box-sizing: border-box; /* Inclui a largura da borda e do preenchimento no cálculo da largura total */
+        padding: 10px; /* Espaço interno de 10 pixels em todos os lados do input */
+        border: 1px solid #ccc; /* Borda com cor cinza claro */
+        border-radius: 40px; /* Borda com cantos arredondados */
+      }
+          /* Estilo para o placeholder */
+    .custominput input::placeholder {
+      text-indent: 29px; /* Ajuste o valor conforme necessário */
+    }
